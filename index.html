@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <script src="main.js" type="text/javascript" defer></script>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+ <body>
+  
+  <form action="buscar" onsubmit= "searchPokemon(event)">
+    <input type="text" name ="pokemon" autocomplete="off" placeholder=" Atrápalo">
+    <button type="submit"> buscar </button>
+  </form>
+  <div dataPokeCard class="pokeCard">
+    <div dataPokename>Pokedex</div>
+    <div dataPokeImgContainer class="imgContainer">
+      <img dataPokeImg class = "pokeImg"src="pokemon.png" alt="pokemon">
+    </div>
+    <div data-pokeId=></div>
+    <div data-pokeTypes class="pokeTypes"></div>
+    <div data-pokeStats class="pokeStats"></div>
+  </div>
+</body>
+</html>
